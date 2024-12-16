@@ -1,5 +1,5 @@
     //By Default Outlines Off
-    document.getElementById('outline-elements').disabled = false;
+    document.getElementById('outline-elements').disabled = true;
 
     //Toggle Outlines Function
     function toggleOutlines() {
