@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <style id="outline-elements">
+    * {
+      outline: 1px solid red;
+    }
+  </style>
+</head>
+<body>
+  <!-- Toggle Outlines Button -->
+  <button id="toggle-btn" onclick="toggleOutlines()" style="height: 20px; border-radius: 5px; position: fixed; font-size: 10px; border: none; top: 0; left: 0; z-index: 1000;">outline</button>
+
+  <div class="about-section section-container">
+    <div class="section-heading-container">
+      <h2>About Us</h2>
+    </div>
+    <div class="section-contents-container">
+      <div class="about-left-container img-placeholder-container">
+        <img src="placeholder.png" class="img-placeholder">
+      </div>
+      <div class="about-right-container">
+        <p class="text-primary about-text">We believe that true success stems from a healthy mind and a fulfilling career. Our integrated approach combines mental health support, career development, and HR consulting to help individuals and organizations thrive. We are committed to delivering personalized solutions that align with your unique needs and goals.</p>
+        <div class="about-btn-container">
+          <button class="faculties-btn white-green-btn main-btns">Our Faculties</button>
+          <button class="know-more-btn green-white-btn main-btns">Know More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="elementOutline.js"></script>
+</body>
+</html>

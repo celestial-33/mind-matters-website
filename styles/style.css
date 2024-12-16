@@ -1,0 +1,147 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  left: 0;
+  right: 0;
+  margin-top: 14vh;
+  padding: 15% 0;
+  align-items: center;
+}
+
+.hero-title-container {
+  margin-bottom: 5%;
+}
+
+.hero-title-container h1 {
+  color: white;
+  line-height: 120%;
+  text-align: center;
+}
+
+.hero-btn-container {
+  display: flex;
+  flex: 1;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+/* .hero-left-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20vh 0 10vh;
+}
+
+.hero-title-container {
+  width: 100%;
+  height: 45%;
+  margin-bottom: 5%;
+}
+
+.hero-title-container h1 {
+  color: white;
+  line-height: 120%;
+}
+
+.hero-btn-container {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.hero-right-container {
+  flex: 1;
+} */
+
+
+/* About Section */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  left: 0;
+  right: 0;
+}
+
+.about-right-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-text {
+  margin-bottom: 10%;
+  align-content: center;
+}
+
+.about-btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.about-left-container {
+  flex: 1;
+} 
+
+
+/*Services Section*/
+.services-section {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  left: 0;
+  right: 0;
+  row-gap: 5%;
+}
+
+.services-container {
+  column-gap: 1%;
+  padding: 0 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: white;
+  padding: 1.5%;
+  justify-content: space-around;
+}
+
+.service-img-container {
+  width: 100%;
+  height: 50%;
+}
+
+.service-heading-container {
+  color: var(--dark);
+}
+
+.service-name-container {
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.service-name {
+  font-size: 0.875rem;
+  color: var(--dark);
+  margin-left: 5%;
+}
+
+.know-more-btn {
+  align-self: center;
+}
+
+/* done? */
