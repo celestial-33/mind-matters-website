@@ -18,8 +18,12 @@ body {
   background-color: #00A64B;
   font-family: Roboto, Arial;
   height: 5000px;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  /* padding-left: 10vw;
+  padding-right: 10vw; */
+}
+
+section {
+  margin: 0 8vw;
 }
 
 h1 {
