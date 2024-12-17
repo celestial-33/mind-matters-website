@@ -10,7 +10,13 @@ header {
   z-index: 100;
   padding-left: 2vw;
   padding-right: 2vw;
-  /* background-color: var(--light); */
+  background-color: none;
+  transition: background-color, height 0.2s ease-in-out;
+}
+
+header.scrolled {
+  background-color: var(--light);
+  height: 10vh;
 }
 
 .header-left {

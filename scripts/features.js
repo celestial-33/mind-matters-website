@@ -1,4 +1,20 @@
-//generateServicesForHomePage
+//Shrink Header On Scroll
+
+  //vh and vw
+  let vh = window.innerHeight / 100;
+  let vw = window.innerWidth / 100;
+
+document.addEventListener('scroll', () => {
+  const header = document.querySelector('header');
+
+  if (window.scrollY > ((vh * 100) - (vh * 14))) {
+    header.classList.add('scrolled')
+  } else {
+    header.classList.remove('scrolled')
+  };
+});
+
+//Generate Services HTML Elements
 const services = [
   {
     heading: 'Counseling & Psychotherapy',
