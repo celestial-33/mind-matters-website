@@ -4,6 +4,7 @@
   position: static;
   left: 0;
   right: 0;
+  height: 86vh;
   /* margin-top: 14vh; */
   padding: 15% 0;
   align-items: center;
@@ -103,7 +104,7 @@
 }
 
 .services-container {
-  column-gap: 1%;
+  column-gap: 3%;
   padding: 0 2%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -125,6 +126,7 @@
 
 .service-heading-container {
   color: var(--dark);
+  padding: 0 5%;
 }
 
 .service-name-container {
@@ -137,7 +139,7 @@
 .service-name {
   font-size: 0.875rem;
   color: var(--dark);
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 .know-more-btn {
