@@ -20,12 +20,16 @@ header.scrolled {
 }
 
 .header-left {
-  width: 165px;
+  width: 12%;
+  transition: width 0.2s ease-in-out;
+}
+
+.header-left.scrolled {
+  width: 10%;
 }
 
 .header-logo {
-  width: 165px;
-  height: 70px;
+  width: 100%;
   vertical-align: middle;
 }
 
@@ -45,10 +49,15 @@ header.scrolled {
 }
 
 .header-right {
-  width: 165px;
+  width: 12%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: width 0.2s ease-in-out;
+}
+
+.header-right.scrolled {
+  width: 10%;
 }
 
 .header-icon {
