@@ -46,10 +46,13 @@ services.forEach((service) => {
       <h3>${service.heading}</h3>
     </div>
     <div class="service-name-container">
-      <p class="service-name">- Individual Therapy</p>
-      <p class="service-name">- Couples Therapy</p>
-      <p class="service-name">- Group Therapy</p>
-      <p class="service-name">- Stress Management</p>
+  `;
+  service.names.forEach((serviceName) => {
+    servicesHTML += `
+    <p class="service-name">- ${serviceName}</p>
+    `;
+  });
+  servicesHTML += `
     </div>
     <button class="know-more-btn white-green-btn main-btns">Know More</button>
   </div>
