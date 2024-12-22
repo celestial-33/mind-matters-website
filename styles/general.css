@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: #00A64B;
+  background-color: var(--main);
   font-family: Roboto, Arial;
   height: 5000px;
   /* padding-left: 10vw;

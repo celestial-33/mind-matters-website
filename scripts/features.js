@@ -1,38 +1,24 @@
 import { services } from "../data/services.js";
 
-console.log(services);
-
 //Shrink Header On Scroll
 
   //vh and vw
   let vh = window.innerHeight / 100;
   let vw = window.innerWidth / 100;
 
-const listOfClasses = ['header','.header-left', '.header-right'];
+const listOfClasses = ['header','.header-left', '.header-logo', '.header-right', '.header-icon'];
 
 listOfClasses.forEach((mainClassName) => {
-  document.addEventListener('scroll', () => {
-    const mainClass = document.querySelector(`${mainClassName}`);
-  
-    if (window.scrollY > ((vh * 100) - (vh * 15))) {
-      mainClass.classList.add('scrolled')
-    } else {
-      mainClass.classList.remove('scrolled')
-    };
+  document.addEventListener('scroll', () => { 
+    document.querySelectorAll(`${mainClassName}`).forEach((mainClass) => {
+      if (window.scrollY > ((vh * 100) - (vh * 15))) {
+        mainClass.classList.add('scrolled')
+      } else {
+        mainClass.classList.remove('scrolled')
+      };
+    });
   });
 });
-
-/*
-document.addEventListener('scroll', () => {
-  const header = document.querySelector('header');
-
-  if (window.scrollY > ((vh * 100) - (vh * 15))) {
-    header.classList.add('scrolled')
-  } else {
-    header.classList.remove('scrolled')
-  };
-});
-*/
 
 //Generate Services HTML Elements
 let servicesHTML = '';
