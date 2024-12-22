@@ -10,7 +10,7 @@ header {
   z-index: 100;
   padding-left: 2vw;
   padding-right: 2vw;
-  background-color: none;
+  background-color: var(--main);
   transition: background-color, height 0.2s ease-in-out;
 }
 
@@ -20,17 +20,22 @@ header.scrolled {
 }
 
 .header-left {
-  width: 12%;
+  width: 14%;
   transition: width 0.2s ease-in-out;
 }
 
 .header-left.scrolled {
-  width: 10%;
+  width: 12%;
 }
 
 .header-logo {
-  width: 100%;
+  width: 14vw;
   vertical-align: middle;
+  transition: width 0.2s ease-in-out;
+}
+
+.header-logo.scrolled {
+  width: 12vw;
 }
 
 .header-middle {
@@ -49,7 +54,7 @@ header.scrolled {
 }
 
 .header-right {
-  width: 12%;
+  width: 14%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,11 +62,16 @@ header.scrolled {
 }
 
 .header-right.scrolled {
-  width: 10%;
+  width: 12%;
 }
 
 .header-icon {
-  height: 32px;
+  height: 5vh;
   fill: white;
   vertical-align: middle;
+  transition: height 0.2s ease-in-out;
+}
+
+.header-icon.scrolled {
+  height: 4vh;
 }
