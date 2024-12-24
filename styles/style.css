@@ -1,9 +1,4 @@
 .hero-section {
-  display: flex;
-  flex-direction: column;
-  position: static;
-  left: 0;
-  right: 0;
   height: 86vh;
   /* margin-top: 14vh; */
   padding: 15% 0;
@@ -61,13 +56,12 @@
 
 
 /* About Section */
+
+/*
 .about-section {
-  display: flex;
-  flex-direction: column;
-  position: static;
-  left: 0;
-  right: 0;
+
 }
+*/
 
 .about-right-container {
   flex: 1;
@@ -90,21 +84,19 @@
 
 .about-left-container {
   flex: 1;
-} 
+}
 
 
 /*Services Section*/
+
+/*
 .services-section {
-  display: flex;
-  flex-direction: column;
-  position: static;
-  left: 0;
-  right: 0;
-  row-gap: 5%;
+
 }
+*/
 
 .services-container {
-  column-gap: 3%;
+  column-gap: 2vw;
   padding: 0 2%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -115,7 +107,7 @@
   flex-direction: column;
   flex: 1;
   background-color: white;
-  padding: 5% 1.5%;
+  padding: 4vh 1vw;
   justify-content: space-between;
 }
 
@@ -135,24 +127,30 @@
 }
 
 .service-name-container {
-  flex: 1;
-  height: 25%;
+  /* flex: 1; */
+  height: auto;
   display: flex;
   flex-direction: column;
-  column-gap: 5%;
-  justify-content: space-around;
+  row-gap: 2vh;
+  justify-content: start;
+  padding-left: 1vw;
 }
 
 .service-name {
   font-size: 0.875rem;
   color: var(--dark);
-  margin-left: 10%;
+  /* margin-left: 10%; */
+}
+
+.service-btn-container {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
 }
 
 .know-more-btn {
-  align-self: center;
   font-size: 0.75rem;
-  height: 6vh;
+  height: 100%;
 }
 
 /* done? */

@@ -40,7 +40,9 @@ services.forEach((service) => {
   });
   servicesHTML += `
     </div>
-    <button class="know-more-btn white-green-btn main-btns">Know More</button>
+    <div class="service-btn-container">
+      <button class="know-more-btn white-green-btn main-btns">Know More</button>
+    </div>
   </div>
   `;
 })

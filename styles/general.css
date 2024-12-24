@@ -84,17 +84,20 @@ button {
 
 .section-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 90vh;
   padding: 4vh 0;
   row-gap: 5%;
+  position: static;
+  left: 0;
+  right: 0;
 }
 
 .section-heading-container {
   color: var(--dark);
   background-color: white;
   text-transform: uppercase;
-  height: 12%;
+  height: 12vh;
   align-content: center;
   padding-left: 3%;
 }
@@ -102,7 +105,7 @@ button {
 .section-contents-container {
   display: flex;
   flex-direction: row;
-  flex: 1;
+  height: 88vh;
 }
 
 .img-placeholder-container {

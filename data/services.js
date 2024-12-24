@@ -13,6 +13,7 @@ export const services = [
       'Career Counseling ',
       'Aptitude & Personality Tests ',
       'Career Planning & Development',
+      'Skills Development'
     ]
   }, {
     heading: 'Corporate Solutions',
