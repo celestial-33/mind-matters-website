@@ -30,12 +30,14 @@ header.scrolled {
 
 .header-logo {
   width: 14vw;
+  width: 100%;
   vertical-align: middle;
   transition: width 0.2s ease-in-out;
 }
 
 .header-logo.scrolled {
   width: 12vw;
+  width: 100%;
 }
 
 .header-middle {
