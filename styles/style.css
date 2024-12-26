@@ -164,12 +164,29 @@
   display: flex;
 }
 
-.contact-icon {
+.contact-icon:hover, .contact-info-name:hover, .contact-info-content:hover {
+  cursor: pointer;
+}
+
+.contact-icon-container {
   width: 15vh;
 }
 
 .contact-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vh;
+  justify-content: center;
+  padding: 0 2vh;
   flex: 1;
+}
+
+.contact-info-name {
+  color: var(--dark);
+}
+
+.contact-info-content {
+  color: white;
 }
 
 .contact-right-container {
