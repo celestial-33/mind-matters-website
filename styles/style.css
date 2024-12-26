@@ -153,4 +153,25 @@
   height: 100%;
 }
 
-/* done? */
+/*Contact Section*/
+.contact-left-container {
+  display: grid;
+  flex: 1;
+  grid-template-rows: repeat(5, 1fr) ;
+}
+
+.contact-container {
+  display: flex;
+}
+
+.contact-icon {
+  width: 15vh;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-right-container {
+  flex: 1;
+}
