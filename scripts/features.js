@@ -47,3 +47,11 @@ services.forEach((service) => {
   `;
 })
 document.querySelector('.js-services-container').innerHTML = servicesHTML;
+
+//Contact cotainer onclick
+document.querySelectorAll('.contact-container').forEach((contactContainer) => {
+  console.log(contactContainer.id);
+  if (contactContainer.id === 'whatsapp-contact-container') {
+    console.log(contactContainer.id);
+  };
+});
